@@ -1,0 +1,62 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to left, white, rgb(250, 235, 235));
+}
+
+.container-quote{
+
+    width: 90%;
+    margin: auto;
+    background-color: rgb(236, 223, 223);
+  
+    display: inline;
+}
+
+.item-containerquote{
+
+    width: 30%;
+    height: 400px;
+    float: left;
+    
+   margin-left: 40px;
+   margin-top: 170px;
+   text-align: center;
+   border: 2px solid white;
+   box-shadow: 0 0 20px 0 black;
+}
+
+.item-containerquote i{
+
+    font-size: 60px;
+    color: rgb(255, 196, 0);
+    margin-bottom: 13px;
+}
+
+.item-containerquote h2{
+    text-transform: uppercase;
+    margin-bottom: 23px;
+
+}
+
+.item-containerquote img{
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 9px;
+
+}
+
+.item-containerquote p{
+font-size: 15px;
+margin-top: 10px;
+
+}
